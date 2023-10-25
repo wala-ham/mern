@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .one {
+            background-color: #eee;
+            width: 200px;
+            height: 100px;
+            /*transition-duration: 1s;
+            transition-delay: 0.2s;
+            transition-property: width;    --all--
+            transition-timing-function: ease;*/
+
+            transition: width 2s,height 1s;
+            
+            }
+            .one:hover {
+            width: 280px;
+            height: 150px;
+            background-color: blue;
+            }
+
+    </style>
+</head>
+<body>
+   
+        <p class="one">One</p>
+    
+</body>
+</html>

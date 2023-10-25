@@ -1,0 +1,40 @@
+/* many types of colors */
+body{
+    background-color: rgb(99, 116, 116);
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+h1{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    /*normal - oblique*/
+}
+h2{
+    font-family: "Roboto Condensed",Tahoma;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 15px;
+}
+
+#p1{
+    color: burlywood;
+    font: italic small-caps bold 12px/30px Georgia, serif;
+
+}
+#p2{
+    color: #2acfb9;
+    border-bottom: 3px  groove whitesmoke; 
+}
+#p3{
+    color:rgb(215, 215, 22);
+}
+#p4{
+    color: #b41818;
+}

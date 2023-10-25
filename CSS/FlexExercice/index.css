@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(229, 149, 92);
+}
+.container{
+    display: flex;
+    margin: 150px;
+    padding-top: 20px;;
+    
+}
+
+.item1{ 
+padding: 20px;
+background-color: #f7f7f7;
+width: 100%;
+}
+
+.item2{
+    padding: 20px;
+    width: 80%;
+    background-color: #f7f7f7;
+}
+img{
+    width:450px;
+    height:400px;
+}
+h1{
+    color: chocolate;
+    text-align: center;
+    font-size: 32px;
+}
+input{
+    margin-top:10px;
+    margin-left:50px;
+   border-radius: 15px;
+   padding: 20px;
+   width: 250px;
+   border-color:chocolate;
+   
+}
+.btn-submit{
+    width: 290px;
+    color:white;
+    background-color:rgb(229, 149, 92);
+}
+.btn-submit:hover{
+    background-color:chocolate;
+}

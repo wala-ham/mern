@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+       /*
+        Grid
+        ***Parent
+        - display: grid | inline-grid
+        -grid-template-columns => [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat (), Mix]
+        -grid-template-rows => [Number Of Rows Height In] => [Px, %, Auto, Fraction, Repeat (), Mix]
+        gap: [Row Gap] [Column Gap]
+        justify-content
+        -align-content
+        --grid-template-areas
+        ***Child
+        --grid-column: [Grid Column Start] [Grid Column End]
+        -grid-row: [Grid Row Start] [Grid Row End]
+        -grid-area: [Grid Row Start] [Grid.Column Start] [Grid Row End] [Grid.Column. End]
+        */
+    * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    ul{
+        list-style: none;
+    }
+    ul li {
+        display: inline-block;
+    }
+    .page {
+        height: 100vh;
+        background-color: #eee;
+        display: grid;
+        grid-template-columns: repeat (10, 1fr);
+        grid-template-rows: 50px auto 50px;
+        grid-template-areas:
+        "logo logo nav nav nav nav nav nav nav nav"
+        "cont cont cont cont cont cont cont cont side side"
+        "foot foot foot foot foot foot foot foot foot foot";
+    }
+    h2 {
+        grid-area: logo;
+        background-color: red;
+        color: white;
+    }
+    nav{
+        grid-area: nav;
+        background-color: rgb(102, 255, 0);
+        color: white;
+    }
+    section{
+        grid-area: cont;
+        background-color: rgb(133, 207, 237);
+        color: white;
+    }
+    aside{
+        grid-area: side;
+        background-color: rgb(198, 231, 33);
+        color: white;
+    }
+    footer{
+        grid-area: foot;
+        background-color: rgb(209, 87, 213);
+        color: white;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="page">
+            <h2>Master Class</h2>
+    <nav>
+    <ul>
+        <li>Home</li>
+        <li>About </li>
+        <li>Services </li>
+        <li>Contact</li>
+    </ul>
+    </nav>
+        <section>Content</section>
+        <aside>Sidebar</aside>
+        <footer>Footer</footer>
+        </div>
+    </div>
+</body>
+</html>

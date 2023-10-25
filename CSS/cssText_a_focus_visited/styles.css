@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  line-height: 4rem;
+  text-align: center;
+  font-family: cursive;
+  margin: 0 auto 1rem;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 2rem 0 0 0 ;
+  border: 1px solid gray;
+  width: 600px;
+}
+h2 {
+  background-color: gold;
+  border-radius: 2rem 2rem 0 0;
+  padding: 1rem;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  border-top: 1px solid gray;
+}
+li a:focus {
+  color: blue;
+}
+li a:visited {
+  color: red;
+}
+li a:active{
+  color:wheat;
+}
+li a {
+  display: block;
+}
+li a:hover,
+li a:focus {
+  background-color: gray;
+}

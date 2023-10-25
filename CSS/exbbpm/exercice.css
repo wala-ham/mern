@@ -1,0 +1,40 @@
+/* Reset some default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* Apply box-sizing: border-box globally */
+  .parent{
+    width: 800px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+    
+}
+
+  /* Style the card element */
+  .card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 3px 3px 5px #888888;
+    
+}
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    font-size: 16px;
+   /* padding: 10px;*/
+  }
+  
+ 
+  
+  

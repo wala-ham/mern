@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+    /*
+    Flexible Box
+    For Parent
+    display: flex => To Start Flexible Box
+    flex-direction: row => Default Value
+    justify-content:start end ..[row]
+    align-items [colomns]
+    flex-wrap: nowrap => Defaul-Value
+    flex-flow: [Flex-Direction] + [Flex-Wrap]
+    align-content 
+    align-self
+    flex-grow: default value : 0 
+    flex-shrink: default value : 1 
+    order
+    */
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-content:center;
+        /*justify-content: space-around;/* main axis y*/
+        /*align-items: center;/* main axis xx*/
+        /*flex-wrap: wrap;
+        column-gap: 1em;*/
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+        font-size: 8em;
+        text-align: center;
+        border-radius: 15px;
+        }
+    #box1{
+        background-color: hsl(0, 100%, 70%);
+        align-self: self-end;
+        order:-1; 
+        }
+    #box2{
+        background-color: hsl(52, 100%, 70%);
+        }
+    #box3{
+        background-color: hsl(111, 100%, 70%);
+        }
+    #box4{
+        background-color: hsl(201, 100%, 70%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+        
+    </div>
+</body>
+</html>
