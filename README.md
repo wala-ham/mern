@@ -12,11 +12,7 @@ This formation is designed to provide a comprehensive understanding and hands-on
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
-- [Modules](#modules)
-- [Projects](#projects)
-- [Resources](#resources)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
