@@ -37,3 +37,10 @@ Follow these steps to get started with the formation:
 1. Clone this repository to your local machine.
    ```bash
    git clone https://github.com/wala-ham/mern.git
+
+## MERN Web Development Formation
+
+![MERN Logo](https://blog.nextideatech.com/wp-content/uploads/2022/12/1_FVtCyRdJ6KOr4YswTtwMeA.jpeg)
+
+...
+
