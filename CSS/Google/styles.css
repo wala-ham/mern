@@ -1,0 +1,98 @@
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 7vh;
+}
+
+nav div {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.topButton {
+  background-color: rgb(18 103 232);
+  color: white;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 3px;
+  height: 100%;
+}
+
+.centerSection {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.googleImage {
+  width: 100px;
+}
+
+.inputDiv {
+  width: 35%;
+  border-radius: 50px;
+  display: flex;
+  border: 1px solid lightgray;
+  height: 40px;
+}
+
+input {
+  width: 82%;
+  border: none;
+  margin-right: 10px;
+  font-size: large;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchImg {
+  width: 20px;
+  height: 20px;
+  border: none;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.micImg {
+  width: 20px;
+  height: 20px;
+  border: none;
+  object-fit: cover;
+  margin: 10px;
+}
+
+
+section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 23%;
+}
+
+button:hover {
+  border: 1px solid gray;
+}
+
+section button {
+  padding: 10px 12px;
+  background-color: lightgray;
+  color: black;
+  border: none;
+  border-radius: 5%;
+}
+

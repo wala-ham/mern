@@ -5,25 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation</title>
     <style>
-        body{
+        /*body{
             background-color: black;
-        }
+        }*/
         .box{
             width: 250px;
             height: 250px;
             background-color: hsl(0, 100%, 62%);
             font-size: 13em;
             text-align: center;
-            animation-name: slideLeft;
+
+
+            animation-name: grow;
             animation-duration: 2s;
+
             animation-iteration-count: 2;/*infinite*/
             animation-direction:reverse ;
             animation-play-state: running;
+            animation-timing-function: ease;
         }
         .box:hover{
             animation-name: glow;
             animation-duration: 2s;
         }
+       
         @keyframes slideLeft{
             from{transform: translateX(300%)}
         }
@@ -58,6 +63,11 @@
 
         }
         @keyframes glow {
+            /*
+            body{
+            background-color: black;
+        }
+            */
             50%{box-shadow: 0px 0px 50px hsl(60, 100%, 64%)}   
         }
     </style>
